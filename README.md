@@ -18,3 +18,7 @@ Applications represent the actual workloads that run within a Kubernetes cluster
 
 ## Clusters
 A cluster is simply an EKS cluster. EKS Blueprints provide for customizing the compute options you leverage with your clusters. The framework currently supports EC2, Fargate and BottleRocket instances. To specify the type of compute you want to use for your cluster, you supply a ClusterProvider object to your blueprint. The framework defaults to leveraging the EC2ClusterProvider.
+
+## Teams
+
+Teams allow you to configure the logical grouping of users that have access to your EKS clusters, in addition to the access permissions they are granted. The framework currently supports two types of teams: ApplicationTeam and PlatformTeam. ApplicationTeam members are granted access to specific namespaces. PlatformTeam members are granted administrative access to your clusters.
