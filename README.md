@@ -22,3 +22,7 @@ A cluster is simply an EKS cluster. EKS Blueprints provide for customizing the c
 ## Teams
 
 Teams allow you to configure the logical grouping of users that have access to your EKS clusters, in addition to the access permissions they are granted. The framework currently supports two types of teams: ApplicationTeam and PlatformTeam. ApplicationTeam members are granted access to specific namespaces. PlatformTeam members are granted administrative access to your clusters.
+
+##Pipeline
+
+Pipelines allow you to configure Continuous Delivery (CD) pipelines for your cluster blueprints that are directly integrated with your Git provider.
