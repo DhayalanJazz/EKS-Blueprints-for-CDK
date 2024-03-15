@@ -2,6 +2,8 @@
 ## Architecture Diagram
 ![Architecture for EKS Blueprints](./Images/EKS.png)
 
+EKS Blueprints allows you to configure and deploy what we call blueprint clusters. A blueprint combines clusters, add-ons, and teams into a cohesive object that can be deployed as a whole. Once a blueprint is configured, it can be easily deployed across any number of AWS accounts and regions. Blueprints also leverage GitOps tooling to facilitate cluster bootstrapping and workload onboarding.
+
 Applications represent the actual workloads that run within a Kubernetes cluster. The framework leverages a GitOps approach for deploying applications onto clusters.
 
 ![Architecture for EKS Blueprints](./Images/EKS_2.png)
