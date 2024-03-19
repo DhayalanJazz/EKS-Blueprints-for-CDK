@@ -28,6 +28,12 @@ A resource is a CDK construct that implements IResource interface from @aws-cdk/
 
 ResourceProviders enable customers to supply resources for add-ons, teams, and/or post-deployment steps.
 
+## Add-on
+
+Add-ons Allow you to configure, deploy, and update the operational software, or add-ons, that provide key functionalities to support your Kubernetes applications.
+
+For examples, the MetricsServerAddon only deploys the Kubernetes manifests that are needed to run the Kubernetes Metrics Server. By contrast, the AWSLoadBalancerControllerAddon deploys Kubernetes YAML, in addition to creating resources via AWS APIs that are needed to support the AWS Load Balancer Controller.
+
 ## Teams
 
 Teams allow you to configure the logical grouping of users that have access to your EKS clusters, in addition to the access permissions they are granted. The framework currently supports two types of teams: ApplicationTeam and PlatformTeam. ApplicationTeam members are granted access to specific namespaces. PlatformTeam members are granted administrative access to your clusters.
@@ -35,4 +41,5 @@ Teams allow you to configure the logical grouping of users that have access to y
 ## Pipeline
 
 Pipelines allow you to configure Continuous Delivery (CD) pipelines for your cluster blueprints that are directly integrated with your Git provider.
+
 
