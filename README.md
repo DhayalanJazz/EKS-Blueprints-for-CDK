@@ -42,5 +42,3 @@ Teams allow you to configure the logical grouping of users that have access to y
 
 Pipelines allow you to configure Continuous Delivery (CD) pipelines for your cluster blueprints that are directly integrated with your Git provider.
 
-
-## Create a Single EKS Cluster Using Blueprints
