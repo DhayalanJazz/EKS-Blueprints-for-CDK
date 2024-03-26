@@ -40,4 +40,4 @@ Teams allow you to configure the logical grouping of users that have access to y
 
 ## Pipeline
 
-
+Pipelines allow you to configure Continuous Delivery (CD) pipelines for your cluster blueprints that are directly integrated with your Git provider.
