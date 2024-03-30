@@ -28,8 +28,6 @@ A resource is a CDK construct that implements IResource interface from @aws-cdk/
 
 ResourceProviders enable customers to supply resources for add-ons, teams, and/or post-deployment steps.
 
-## Teams
-
 ## Add-on
 
 Add-ons Allow you to configure, deploy, and update the operational software, or add-ons, that provide key functionalities to support your Kubernetes applications.
