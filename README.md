@@ -34,6 +34,8 @@ Add-ons Allow you to configure, deploy, and update the operational software, or 
 
 For examples, the MetricsServerAddon only deploys the Kubernetes manifests that are needed to run the Kubernetes Metrics Server. By contrast, the AWSLoadBalancerControllerAddon deploys Kubernetes YAML, in addition to creating resources via AWS APIs that are needed to support the AWS Load Balancer Controller.
 
+## Teams
+
 ## Pipeline
 
 Pipelines allow you to configure Continuous Delivery (CD) pipelines for your cluster blueprints that are directly integrated with your Git provider.
